@@ -1,0 +1,22 @@
+.delete{
+   color: var(--SoftRed);
+   font-weight: 500;
+   background-color: inherit;
+   font-size: inherit;
+   padding: 5px 0;
+   display: flex;
+   align-items: center;
+}
+
+.delete img{
+   margin-right: 10px;
+}
+
+@media (min-width:773px){
+   .delete:hover{
+      filter: opacity(60%);
+      -webkit-filter: opacity(60%);
+      -moz-filter: opacity(60%);
+      transition: all 0.2s ease-out;
+   }
+}
